@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    -webkit-box-shadow: -42px -31px 5px 11px rgba(112,43,112,1);
+-moz-box-shadow: -42px -31px 5px 11px rgba(112,43,112,1);
+box-shadow: -42px -31px 5px 11px rgba(112,43,112,1);
+/* background: rgb(red, rgb(19, 146, 19), blue); */
+/* height: 25vh; */
+background-color: aquamarine;
+display: flex;
+
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: brown;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+nav li{
+    list-style: none;
+    padding: 12px 14px;
+}
+nav a:hover{
+    color: rgb(48, 12, 12);
+}
+.t{
+    background-color: aqua;
+}
+p{
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+nav a:first-child{
+    font-size: 1.75em;
+}
