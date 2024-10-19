@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    -webkit-box-shadow: 10px 12px 5px 11px rgba(0,0,0,0.8);
+-moz-box-shadow: 10px 12px 5px 11px rgba(0,0,0,0.8);
+box-shadow: 10px 12px 5px 11px rgba(0,0,0,0.8);
+
+}
+nav li{
+    padding: 18px 16px;
+    
+
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    background: rgb(239, 239, 247);
+}
+.k{
+    background: url(images/animal.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    
+    
+}
+.k div{
+    width: 70%;
+    background: rgba(29, 2, 2, 0.8);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 15px;
+    
+}
+.k p{
+    color: beige;
+    padding: 12px 13px;
+    margin: 10px 12px;
+    line-height: 17px;
+ 
+}
+nav a:first-child{
+    margin: auto;
+}
