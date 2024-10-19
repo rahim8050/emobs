@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: bisque;
+    -webkit-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 3px 10px 5px 0px rgba(0,0,0,0.75);
+height: 150px;
+}
+nav ul{
+    display: flex ;
+    justify-content:  flex-end;
+    list-style: none;
+}
+nav li{
+    padding: 8px 24px;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+nav a{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+nav li:first-child{
+    margin: auto;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+nav a:hover{
+    background: rgb(248, 88, 8);
+}
+.j{
+    background: url(images/barn.jpg);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.j div{
+    justify-content: center;
+    border-radius: 15px;
+    line-height: 25px;
+    width: 80%;
+    background: rgba(0,0,0,0.75);
+    color: beige;
+    padding: 13px 12px;
+
+}
+.l, .m{
+    
+    width: 50%;
+}
+.j img{
+    width: 600px;
+    height: 600px;
+}
